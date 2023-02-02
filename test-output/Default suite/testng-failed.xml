@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng_automation_code_jan_31st_2023.GoingWithTheFlow">
+      <class name="testng_automation_code_feb_1st_2023.Assignment">
         <methods>
-          <include name="openRediff"/>
-          <include name="clickOnCloseIcon"/>
           <include name="tearDown"/>
+          <include name="openTutorialsNinjaWebsite"/>
+          <include name="clickOnMyAccount"/>
         </methods>
-      </class> <!-- testng_automation_code_jan_31st_2023.GoingWithTheFlow -->
+      </class> <!-- testng_automation_code_feb_1st_2023.Assignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
